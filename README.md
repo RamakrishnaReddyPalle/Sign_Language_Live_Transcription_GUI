@@ -174,6 +174,3 @@ This project demonstrates how deep learning models can be utilized for American 
 
 Feel free to contribute or report issues in the repository.
 
----
-
-This README gives an overall explanation of the key concepts, methods, and results of your project, including sections for dataset, model architecture, training strategies, GUI, and inference. Let me know if you need adjustments or further details!
