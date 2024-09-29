@@ -118,7 +118,16 @@ This opens a window where live video from your webcam is displayed. You can star
 The GUI supports live transcription directly into text using special ASL signs for space and delete.
 
 ---
+### Making an executable file
 
+To bundle the transcription GUI and make an executable file, execute the following command:
+
+```bash
+pyinstaller --onefile --windowed --add-data "assets;assets" --add-data "efficientnet_hand_gesture_model.h5;." Sign_Language_Transcriptor_App_GUI.py
+```
+This command bundles all the dependencies of all scripts and also it is necessary to separately add local files used in the script like image files and trained model file.
+
+---
 ## GUI Features
 
 The graphical interface is built using **Tkinter** for ease of use and integration with OpenCV. Here are some highlights:
