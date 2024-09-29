@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="assets/asl_logo.png" alt="ASL Icon" width="140"/>
+</p>
+
 ---
 
 # American Sign Language Classification and Live Transcription GUI using EfficientNet, OpenCV, and Tkinter
@@ -78,7 +82,11 @@ To get started, clone the repository and install the dependencies.
 
 ```bash
 git clone <https://github.com/RamakrishnaReddyPalle/Sign_Language_Live_Transcription_GUI.git>
+```
+```bash
 cd path\to\cloned\folder
+```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -120,10 +128,10 @@ The graphical interface is built using **Tkinter** for ease of use and integrati
 - **Keyboard Integration**: Supports automatic typing of letters, spaces, and backspace using `keyboard` module.
 - **Easy-to-use Controls**: Simple key bindings for starting predictions (`p` key) and exiting the program (`q` key).
 
-###  Demos
-
-![GUI Screenshot](path_to_screenshot)
-*A screenshot of my ASL Transcription GUI in action.*
+##  Demos
+![GUI Screenshot](assets/Screenshot%202024-09-29%20035526.png)
+![GUI Screenshot](assets/Screenshot%202024-09-29%20035611.png)
+### *Few screenshots of our ASL Transcription GUI in action.*
 ---
 
 ## Results
@@ -145,6 +153,13 @@ The model achieved decent accuracy (93.74%) on the test set and performs well in
 ## Conclusion
 
 This project demonstrates how deep learning models can be utilized for American Sign Language gesture classification and transcription. By leveraging EfficientNet, OpenCV, and Tkinter, we developed a robust system that can classify 29 different ASL gestures in real-time.
+
+---
+
+## Contributors
+
+- [Ramakrishna Reddy Palle](https://www.linkedin.com/in/p-rama-krishna-reddy-038b30246/)
+- [Vani Nigam](https://www.linkedin.com/in/vani-nigam-0707vn/) 
 
 ---
 
