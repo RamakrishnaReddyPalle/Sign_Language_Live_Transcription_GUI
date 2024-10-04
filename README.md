@@ -81,7 +81,7 @@ Each image in the dataset was preprocessed with the following steps:
 To get started, clone the repository and install the dependencies.
 
 ```bash
-git clone <https://github.com/RamakrishnaReddyPalle/Sign_Language_Live_Transcription_GUI.git>
+git clone https://github.com/RamakrishnaReddyPalle/Sign_Language_Live_Transcription_GUI.git
 ```
 ```bash
 cd path\to\cloned\folder
